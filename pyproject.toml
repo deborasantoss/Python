@@ -1,0 +1,8 @@
+[project]
+name = "hello_world_cli"
+version  = "0.1.0"
+dependencies = ["pandas"]
+ 
+[project.scripts]
+hw = "hello_world_cli.cli:hi"
+convert_arg = "hello_world_cli.convert:convert"
